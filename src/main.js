@@ -7,7 +7,7 @@ import store from './store'
 Vue.mixin({
   data: function () {
     return {
-      baseUrl: 'http://localhost/',
+      baseUrl: 'https://cors-anywhere.herokuapp.com/https://jopay-laravel-user-crud.herokuapp.com/api/v1/',
     }
   }
 });
